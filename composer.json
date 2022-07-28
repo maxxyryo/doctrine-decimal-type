@@ -1,0 +1,34 @@
+{
+    "name": "kenny1911/doctrine-decimal-type",
+    "description": "Doctrine DBAL type for ext-decimal",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["doctrine", "dbal", "type", "decimal", "ext-decimal"],
+    "authors": [
+        {
+            "name": "Kenny1911",
+            "email": "o-muzyka@mail.ru"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.1|^8.0",
+        "ext-decimal": "*",
+        "doctrine/dbal": "^2.6|^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kenny1911\\DoctrineDecimalType\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kenny1911\\DoctrineDecimalType\\Tests\\": "tests/"
+        }
+    }
+}
